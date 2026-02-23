@@ -155,8 +155,8 @@ export const Footer = () => {
                     </div>
 
                     <div className="flex items-center gap-8">
-                        <a href="#" className="hover:text-orange-500 transition-colors">Privacy Policy</a>
-                        <a href="#" className="hover:text-orange-500 transition-colors">Terms of Service</a>
+                        <a href="#!" className="hover:text-orange-500 transition-colors">Privacy Policy</a>
+                        <a href="#!" className="hover:text-orange-500 transition-colors">Terms of Service</a>
                     </div>
                 </div>
             </div>

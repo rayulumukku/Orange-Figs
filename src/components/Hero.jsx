@@ -166,7 +166,7 @@ export const Hero = () => {
                         className="relative"
                     >
                         {/* Interactive Background Glow */}
-                        <div className="absolute inset-[-10%] bg-orange-400/20 rounded-[4rem] blur-[100px] animate-pulse duration-[10s] z-0" />
+                        <div className="absolute inset-[-10%] bg-orange-400/20 rounded-[4rem] blur-[100px] animate-pulse [animation-duration:10s] z-0" />
 
                         {/* Liquid Shape Background */}
                         <div className="absolute -inset-4 bg-gradient-to-tr from-orange-100/40 via-amber-100/40 to-orange-50/40 blur-3xl animate-liquid z-0" />

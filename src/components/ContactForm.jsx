@@ -4,15 +4,13 @@ import {
     MapPin,
     MessageCircle,
     ArrowRight,
-    User,
-    AtSign,
     PhoneCall,
     CheckCircle2,
 } from "lucide-react";
 import { Button } from "./ui/button";
 import { Card } from "./ui/card";
 import { toast } from "sonner";
-import { classesData, contactInfo } from "../data/mock";
+import { contactInfo } from "../data/mock";
 import { motion, AnimatePresence } from "framer-motion";
 
 export const ContactForm = () => {
