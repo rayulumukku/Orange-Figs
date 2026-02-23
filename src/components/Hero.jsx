@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Star, ArrowRight, Play, ChefHat, Sparkles } from 'lucide-react';
 import { Button } from './ui/button';
 import { motion, useScroll, useTransform, useSpring } from 'framer-motion';

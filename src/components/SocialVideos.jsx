@@ -43,7 +43,6 @@ const SocialCard = ({ post, index }) => {
 
     const rotateX = useTransform(mouseYSpring, [-0.5, 0.5], ["12deg", "-12deg"]);
     const rotateY = useTransform(mouseXSpring, [-0.5, 0.5], ["-12deg", "12deg"]);
-    const shadowOpacity = useTransform(mouseYSpring, [-0.5, 0.5], [0.3, 0.1]);
 
     const handleMouseMove = (e) => {
         const rect = cardRef.current.getBoundingClientRect();
