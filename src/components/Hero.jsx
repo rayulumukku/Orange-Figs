@@ -42,7 +42,7 @@ export const Hero = () => {
     };
 
     return (
-        <motion.section style={{ opacity, scale }} className="relative min-h-[95vh] lg:min-h-screen flex bg-[#FFFBF5] overflow-hidden">
+        <motion.section style={{ opacity, scale }} className="relative min-h-screen pt-[120px] lg:pt-[160px] bg-[#FFFBF5] overflow-hidden block">
             {/* Premium Background Layer */}
             <div className="absolute inset-0 z-0">
                 <div className="absolute top-[5%] right-[-5%] w-[600px] h-[600px] rounded-full bg-orange-200/20 blur-[120px]" />
@@ -68,7 +68,7 @@ export const Hero = () => {
                 backgroundSize: '40px 40px'
             }} />
 
-            <div className="container-custom relative z-10 pt-48 lg:pt-64 pb-16">
+            <div className="container-custom relative z-10 pt-12 lg:pt-20 pb-16">
                 <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
                     {/* Left — Text */}
                     <div className="space-y-8">
