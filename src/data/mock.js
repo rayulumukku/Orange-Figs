@@ -36,7 +36,7 @@ export const classesData = [
         title: 'Teen Masterclass',
         subtitle: 'Advanced Techniques',
         duration: '120 min',
-        maxStudents: '12',
+        maxStudents: '14',
         description: 'Complex recipes and plating techniques for the aspiring chef.',
         features: ['Pastry Arts', 'International Cuisine', 'Food Styling'],
         price: '75',
