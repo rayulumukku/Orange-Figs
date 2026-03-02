@@ -1,6 +1,6 @@
 export const stats = [
     { number: 1200, suffix: '+', label: 'Happy Students' },
-    { number: 15, suffix: '+', label: 'Master Chefs' },
+    { number: 20, suffix: '+', label: 'Master Chefs' },
     { number: 50, suffix: '+', label: 'Cooking Workshops' },
     { number: 100, suffix: '%', label: 'Fun Guaranteed' }
 ];
