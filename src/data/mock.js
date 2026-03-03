@@ -47,7 +47,7 @@ export const classesData = [
 export const testimonials = [
     {
         id: 1,
-        name: 'Sarah Johnson',
+        name: 'Sara Johnson',
         role: 'Parent of Leo (6)',
         content: 'Orange Figs has completely changed how my son views vegetables. He now loves to help me prep dinner! The level of instruction is professional yet perfectly tailored for young kids.',
         avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80',
