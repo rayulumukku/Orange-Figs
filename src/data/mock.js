@@ -32,7 +32,7 @@ export const classesData = [
     },
     {
         id: 3,
-        ageRange: '13-17',
+        ageRange: '13-18',
         title: 'Teen Masterclass',
         subtitle: 'Advanced Techniques',
         duration: '120 min',
