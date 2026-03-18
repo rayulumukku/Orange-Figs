@@ -46,17 +46,17 @@ export const Footer = () => {
     ];
 
     return (
-        <footer className="bg-white mt-12 relative overflow-hidden">
+        <footer className="bg-white mt-8 mb-2 relative overflow-hidden">
             {/* Ambient Brand Accent */}
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,85,0,0.03),transparent_50%)] pointer-events-none" />
 
-            <div className="container-custom py-10 relative z-10">
+            <div className="container-custom py-4 relative z-10">
                 {/* Top Grid */}
-                <div className="grid lg:grid-cols-12 gap-12">
+                <div className="grid lg:grid-cols-12 gap-6">
                     {/* Brand */}
-                    <div className="lg:col-span-5 space-y-5">
+                    <div className="lg:col-span-5 space-y-3">
                         <div className="flex items-center gap-4">
-                            <img src={logo} alt="Orange Figs" loading="lazy" className="w-24 h-24 object-contain" />
+                            <img src={logo} alt="Orange Figs" loading="lazy" className="w-14 h-14 object-contain" />
                         </div>
 
                         <p className="text-gray-500 text-sm leading-relaxed max-w-sm font-medium">
@@ -67,7 +67,7 @@ export const Footer = () => {
                             explore the world of cooking.
                         </p>
 
-                        <div className="flex gap-3 pt-2">
+                        <div className="flex gap-3">
                             {socialLinks.map((social, i) => (
                                 <motion.a
                                     key={i}
@@ -86,13 +86,13 @@ export const Footer = () => {
                     </div>
 
                     {/* Links */}
-                    <div className="lg:col-span-4 grid grid-cols-2 gap-6 sm:gap-8">
+                    <div className="lg:col-span-4 grid grid-cols-2 gap-4 sm:gap-5">
                         {footerLinks.map((group, i) => (
-                            <div key={i} className="space-y-5">
+                            <div key={i} className="space-y-2">
                                 <h4 className="text-[11px] font-black text-gray-400 uppercase tracking-[0.2em]">
                                     {group.title}
                                 </h4>
-                                <ul className="space-y-3">
+                                <ul className="space-y-1.5">
                                     {group.links.map((link, j) => (
                                         <li key={j}>
                                             <a
@@ -109,12 +109,12 @@ export const Footer = () => {
                     </div>
 
                     {/* Contact */}
-                    <div className="lg:col-span-3 space-y-5">
+                    <div className="lg:col-span-3 space-y-2">
                         <h4 className="text-[11px] font-black text-gray-400 uppercase tracking-[0.2em]">
                             Contact
                         </h4>
 
-                        <div className="space-y-4 text-sm text-gray-600 font-medium">
+                        <div className="space-y-2 text-sm text-gray-600 font-medium">
                             <a
                                 href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(contactInfo.address)}`}
                                 target="_blank"
@@ -151,7 +151,7 @@ export const Footer = () => {
                 </div>
 
                 {/* Bottom */}
-                <div className="mt-10 pt-8 border-t border-orange-100/50 flex flex-col md:flex-row items-center justify-between gap-6 text-[13px] text-gray-500 font-medium">
+                <div className="mt-3 pt-3 border-t border-orange-100/50 flex flex-col md:flex-row items-center justify-between gap-2 text-[13px] text-gray-500 font-medium">
                     <div className="flex items-center gap-2">
                         © {currentYear} <span className="text-orange-600 font-bold">Orange Figs</span>. All rights reserved.
                     </div>
