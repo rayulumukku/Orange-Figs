@@ -52,11 +52,12 @@ export const RegistrationPopup = () => {
         setIsSubmitting(true);
 
         try {
-            const response = await fetch(`https://formsubmit.co/ajax/${PRIMARY_EMAIL}`, {
+            const response = await fetch(`https://formsubmit.co/ajax/${PRIMARY_EMAIL}?_=${Date.now()}`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
                     Accept: "application/json",
+                    "Cache-Control": "no-cache",
                 },
                 body: JSON.stringify({
                     _subject: `New Registration from ${formData.name} - Orange Figs`,
