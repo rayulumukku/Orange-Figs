@@ -254,7 +254,7 @@ export const Services = () => {
           }
         }
       `}</style>
-      <section id="classes" className="svc-root">
+      <section id="services" className="svc-root">
         <div className="svc-header">
           <p className={`section-label ${visible ? "on" : ""}`}>What We Offer</p>
           <h2 className={`section-heading ${visible ? "on" : ""}`}>Our <span className="grad">Services</span></h2>
