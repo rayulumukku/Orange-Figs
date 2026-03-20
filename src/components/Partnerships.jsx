@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 
 const partners = [
     { name: "Partner 1", logo: "/partner1.jpeg" },
+    { name: "Rasam", logo: "/rasamPartnerLogo.png" },
 ];
 
 export const Partnerships = () => {
