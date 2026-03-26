@@ -123,13 +123,10 @@ export const ContactForm = () => {
             className="relative min-h-[780px] md:min-h-[860px] flex flex-col items-center justify-center py-16 lg:py-24 overflow-hidden"
             style={{ fontFamily: "'AndesRounded', sans-serif" }}
         >
-            {/* Layer 1: Background image - vibrant, visible */}
             <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{ backgroundImage: "url('/CL4A3492%20(2).JPG')" }}
             />
-
-            {/* Layer 2: Lighter gradient overlay - reduced opacity for visibility */}
             <div
                 className="absolute inset-0"
                 style={{
@@ -137,11 +134,7 @@ export const ContactForm = () => {
                         "linear-gradient(135deg, rgba(249,115,22,0.42) 0%, rgba(251,146,60,0.38) 30%, rgba(251,113,133,0.35) 60%, rgba(244,63,94,0.32) 100%)",
                 }}
             />
-
-            {/* Layer 2b: Very subtle darkening */}
             <div className="absolute inset-0 bg-black/8" />
-
-            {/* Floating gradient blobs - subtle depth */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 <div
                     className="absolute -top-20 -right-20 w-72 h-72 rounded-full blur-3xl opacity-20"
@@ -179,8 +172,6 @@ export const ContactForm = () => {
                     .contact-form-card { backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
                 }
             `}</style>
-
-            {/* Section content above form */}
             <motion.div
                 initial={{ opacity: 0, y: 24 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -207,8 +198,6 @@ export const ContactForm = () => {
                     Have questions about our cooking classes, camps, or birthday celebrations? Drop us a message and our team will get back to you within 24 hours.
                 </p>
             </motion.div>
-
-            {/* Form wrapper */}
             <motion.div
                 initial={{ opacity: 0, y: 36 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -225,8 +214,6 @@ export const ContactForm = () => {
                         WebkitBackdropFilter: "blur(12px)",
                     }}
                 />
-
-                {/* Header - above card, over background for contrast */}
                 <div className="mb-6">
                     <p
                         className="text-[11px] font-semibold uppercase tracking-[0.3em] mb-2"
@@ -257,8 +244,6 @@ export const ContactForm = () => {
                         within 24 hours.
                     </p>
                 </div>
-
-                {/* Form card - more opaque, stronger shadow, elevation */}
                 <div
                     className="contact-form-card relative rounded-[28px] p-8 sm:p-10"
                     style={{

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 
 const HERO_VIDEO_DESKTOP =
-  "https://res.cloudinary.com/dg5qkp09h/video/upload/v1772695162/horizontal_wlxpmg.mp4";
+  "https://res.cloudinary.com/dehcbkqsf/video/upload/v1774537205/desktop_c8v52v.mp4";
 const HERO_VIDEO_MOBILE =
-  "https://res.cloudinary.com/dg5qkp09h/video/upload/v1772695109/Verticals_odrnvs.mp4";
+  "https://res.cloudinary.com/dehcbkqsf/video/upload/v1774537221/mobile_ycjhqa.mp4";
 
 const styles = `
   .hero-outer {
