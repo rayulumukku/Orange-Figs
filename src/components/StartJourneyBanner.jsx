@@ -169,7 +169,7 @@ export default function StartJourneyBanner() {
                                 }}
                             >
                                 <img
-                                    src={cloudinaryOpt("https://res.cloudinary.com/dg5qkp09h/image/upload/v1772798913/_VPC7498_sxbvy9.jpg", 600)}
+                                    src={cloudinaryOpt("https://res.cloudinary.com/dehcbkqsf/image/upload/v1774613401/_VPC7498_u1s2vh.jpg", 600)}
                                     alt="Young chef cooking"
                                     loading="lazy"
                                     className="w-full h-full object-cover object-[center_top] rounded-[inherit]"
