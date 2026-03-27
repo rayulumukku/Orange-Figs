@@ -27,7 +27,7 @@ export const Gallery = () => {
             `}</style>
             <div className="container-custom text-center mb-8">
                 <h2 className={`section-heading ${visible ? "on" : ""}`}>
-                    1,600+ Little Chefs <span className="grad">Learning & Enjoying</span> Every Month
+                    6,000+ Little Chefs <span className="grad">Learning & Enjoying</span> Every Month
                 </h2>
                 <p className={`section-label ${visible ? "on" : ""}`}>Our Community</p>
                 <p className="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto font-medium leading-relaxed mt-4" style={{ opacity: visible ? 1 : 0, transition: 'opacity 0.6s ease 0.5s' }}>

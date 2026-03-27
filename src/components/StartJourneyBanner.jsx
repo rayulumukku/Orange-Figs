@@ -206,7 +206,7 @@ export default function StartJourneyBanner() {
                             >
                                 <div className="w-[34px] h-[34px] rounded-full bg-[#FCAB52] flex items-center justify-center text-base flex-shrink-0">👨‍👩‍👧</div>
                                 <div>
-                                    <div className="font-extrabold text-sm text-[#1C0A08] leading-none" style={{ fontFamily: "'AndesRounded', sans-serif" }}>1600+</div>
+                                    <div className="font-extrabold text-sm text-[#1C0A08] leading-none" style={{ fontFamily: "'AndesRounded', sans-serif" }}>6000+</div>
                                     <div className="text-[9.5px] font-bold text-gray-400 leading-none mt-0.5" style={{ fontFamily: "'AndesRounded', sans-serif" }}>little chefs</div>
                                 </div>
                             </div>
